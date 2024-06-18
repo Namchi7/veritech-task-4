@@ -1,0 +1,202 @@
+[
+  {
+    "show_id": "01",
+    "show_name": "Locke & Key",
+    "total_episodes": 12,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-01.png",
+    "on_list": "popular"
+  },
+  {
+    "show_id": "02",
+    "show_name": "Jojo's Bizarre Adventures",
+    "total_episodes": 12,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-02.png",
+    "on_list": "popular"
+  },
+  {
+    "show_id": "03",
+    "show_name": "Good Doctor",
+    "total_episodes": 24,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-03.png",
+    "on_list": "popular"
+  },
+  {
+    "show_id": "04",
+    "show_name": "Trainwreck: Woodstock '99",
+    "total_episodes": 12,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-04.png",
+    "on_list": "popular"
+  },
+  {
+    "show_id": "05",
+    "show_name": "Resident Evil",
+    "total_episodes": 1,
+    "show_type": "movie",
+    "show_banner_url": "/assets/images/show-banners/show-05.png",
+    "on_list": "trending"
+  },
+  {
+    "show_id": "06",
+    "show_name": "Brooklyn Nine-Nine",
+    "total_episodes": 12,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-06.png",
+    "on_list": "popular"
+  },
+  {
+    "show_id": "07",
+    "show_name": "Vikings",
+    "total_episodes": 24,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-07.png",
+    "on_list": "extra"
+  },
+  {
+    "show_id": "08",
+    "show_name": "The Social Dilemma",
+    "total_episodes": 1,
+    "show_type": "movie",
+    "show_banner_url": "/assets/images/show-banners/show-08.png",
+    "on_list": "trending"
+  },
+  {
+    "show_id": "09",
+    "show_name": "The Crown",
+    "total_episodes": 1,
+    "show_type": "movie",
+    "show_banner_url": "/assets/images/show-banners/show-09.png",
+    "on_list": "trending"
+  },
+  {
+    "show_id": "10",
+    "show_name": "The Five Juanas",
+    "total_episodes": 12,
+    "show_type": "movie",
+    "show_banner_url": "/assets/images/show-banners/show-10.png",
+    "on_list": "trending"
+  },
+  {
+    "show_id": "11",
+    "show_name": "The Universe",
+    "total_episodes": 1,
+    "show_type": "Movie",
+    "show_banner_url": "/assets/images/show-banners/show-11.png",
+    "on_list": "trending"
+  },
+  {
+    "show_id": "12",
+    "show_name": "Snowpiercer",
+    "total_episodes": 1,
+    "show_type": "movie",
+    "show_banner_url": "/assets/images/show-banners/show-12.png",
+    "on_list": "trending"
+  },
+  {
+    "show_id": "13",
+    "show_name": "You",
+    "total_episodes": 12,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-13.png",
+    "on_list": "trending"
+  },
+  {
+    "show_id": "14",
+    "show_name": "Explained",
+    "total_episodes": 12,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-14.png",
+    "on_list": "trending"
+  },
+  {
+    "show_id": "15",
+    "show_name": "Another Life",
+    "total_episodes": 12,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-15.png",
+    "on_list": "trending"
+  },
+  {
+    "show_id": "16",
+    "show_name": "The Umbrella Academy",
+    "total_episodes": 12,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-16.png",
+    "on_list": "trending"
+  },
+  {
+    "show_id": "17",
+    "show_name": "Sense 8",
+    "total_episodes": 12,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-17.png",
+    "on_list": "trending"
+  },
+  {
+    "show_id": "18",
+    "show_name": "The Rain",
+    "total_episodes": 12,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-18.png",
+    "on_list": "trending"
+  },
+  {
+    "show_id": "19",
+    "show_name": "Altered Carbon",
+    "total_episodes": 12,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-19.png",
+    "on_list": "popular"
+  },
+  {
+    "show_id": "20",
+    "show_name": "Into The Night",
+    "total_episodes": 12,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-20.png",
+    "on_list": "recommended"
+  },
+  {
+    "show_id": "21",
+    "show_name": "The Last Kingdom",
+    "total_episodes": 12,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-21.png",
+    "on_list": "recommended"
+  },
+  {
+    "show_id": "22",
+    "show_name": "Locke & Key",
+    "total_episodes": 12,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-22.png",
+    "on_list": "recommended"
+  },
+  {
+    "show_id": "23",
+    "show_name": "Peaky Blinders",
+    "total_episodes": 24,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-23.png",
+    "on_list": "recommended"
+  },
+  {
+    "show_id": "24",
+    "show_name": "Queens Gambit",
+    "total_episodes": 24,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-24.png",
+    "on_list": "recommended"
+  },
+  {
+    "show_id": "25",
+    "show_name": "Money Heist",
+    "total_episodes": 12,
+    "show_type": "tv",
+    "show_banner_url": "/assets/images/show-banners/show-25.png",
+    "on_list": "recommended"
+  }
+]

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="show-style.css" />
+    <title>Show</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <div class="hero-content">
+          <header class="header">
+            <div class="sub-header">
+              <div class="header-left">
+                <img src="./assets/images/Logo.png" alt="Logo" class="logo" />
+
+                <nav class="nav">
+                  <a href="/" class="nav-link">Home</a>
+                  <a href="#" class="nav-link">TV Shows</a>
+                  <a href="#" class="nav-link">Movies</a>
+                  <a href="#" class="nav-link">New & Popular</a>
+                </nav>
+              </div>
+
+              <div class="header-right">
+                <div class="search-bar-div" id="search-bar-div">
+                  <input
+                    type="text"
+                    class="search-input"
+                    id="search-input"
+                    placeholder="Search shows..."
+                  />
+
+                  <img
+                    src="./assets/images/search.png"
+                    alt="Search"
+                    class="search-icon"
+                    id="search-icon"
+                  />
+
+                  <div
+                    style="display: none"
+                    class="search-result"
+                    id="search-result"
+                  ></div>
+                </div>
+
+                <div class="profile-icon"></div>
+              </div>
+            </div>
+          </header>
+
+          <div class="main-show">
+            <div class="show-type-div">
+              <img
+                src="./assets/images/Logo-icon.png"
+                alt="Netflix"
+                class="netflix-icon"
+              />
+
+              <p class="show-type" id="show-type">SERIES</p>
+            </div>
+
+            <p class="show-name" id="show-name">Devil In Ohio</p>
+
+            <p class="show-description">
+              Determined to protect a young patient who escaped a mysterious
+              cult, a psychiatrist takes the girl in, putting her own family —
+              and life — in danger.
+            </p>
+
+            <div class="show-buttons">
+              <button class="show-button play-button">
+                <img
+                  src="./assets/images/play.png"
+                  alt="Play"
+                  class="show-button-icon"
+                />
+                <p>Play Now</p>
+              </button>
+            </div>
+
+            <div class="show-lists">
+              <div class="show-list">
+                <h3 class="show-list-heading" id="show-list-heading">
+                  Episodes
+                </h3>
+
+                <div class="list-shows-div">
+                  <div class="list-shows" id="list-shows">
+                    <div class="show">
+                      <img
+                        src="/assets/images/show-banners/show-01.png"
+                        alt="Show Banner"
+                        class="show-banner"
+                        id="show-banner"
+                      />
+
+                      <p class="show-banner-name">Episode 1</p>
+                    </div>
+                    <div class="show">
+                      <img
+                        src="/assets/images/show-banners/show-01.png"
+                        alt="Show Banner"
+                        class="show-banner"
+                        id="show-banner"
+                      />
+                    </div>
+                    <div class="show">
+                      <img
+                        src="/assets/images/show-banners/show-01.png"
+                        alt="Show Banner"
+                        class="show-banner"
+                        id="show-banner"
+                      />
+                    </div>
+                    <div class="show">
+                      <img
+                        src="/assets/images/show-banners/show-01.png"
+                        alt="Show Banner"
+                        class="show-banner"
+                        id="show-banner"
+                      />
+                    </div>
+                    <div class="show">
+                      <img
+                        src="/assets/images/show-banners/show-01.png"
+                        alt="Show Banner"
+                        class="show-banner"
+                        id="show-banner"
+                      />
+                    </div>
+                    <div class="show">
+                      <img
+                        src="/assets/images/show-banners/show-01.png"
+                        alt="Show Banner"
+                        class="show-banner"
+                        id="show-banner"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-bg-image" id="hero-bg-image"></div>
+
+        <div class="bg-vignette"></div>
+      </div>
+    </div>
+    <script src="./show-script.js" defer></script>
+  </body>
+</html>

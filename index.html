@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>OTT Clone</title>
+  </head>
+  <body class="container">
+    <div class="hero">
+      <div class="hero-content">
+        <header class="header">
+          <div class="sub-header">
+            <div class="header-left">
+              <img src="./assets/images/Logo.png" alt="Logo" class="logo" />
+
+              <nav class="nav">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">TV Shows</a>
+                <a href="#" class="nav-link">Movies</a>
+                <a href="#" class="nav-link">New & Popular</a>
+              </nav>
+            </div>
+
+            <div class="header-right">
+              <div class="search-bar-div" id="search-bar-div">
+                <input
+                  type="text"
+                  class="search-input"
+                  id="search-input"
+                  placeholder="Search shows..."
+                />
+
+                <img
+                  src="./assets/images/search.png"
+                  alt="Search"
+                  class="search-icon"
+                  id="search-icon"
+                />
+
+                <div class="search-result" id="search-result"></div>
+              </div>
+
+              <div class="profile-icon"></div>
+            </div>
+          </div>
+        </header>
+
+        <div class="main-show">
+          <div class="show-type-div">
+            <img
+              src="./assets/images/Logo-icon.png"
+              alt="Netflix"
+              class="netflix-icon"
+            />
+
+            <p class="show-type">SERIES</p>
+          </div>
+
+          <div class="show-name">
+            <img
+              src="./assets/images/main-show-logo.png"
+              alt="Devil In Ohio"
+              class="main-show-logo"
+            />
+          </div>
+
+          <div class="show-rank-div">
+            <img src="./assets/images/Top10.png" alt="Top10" class="top10" />
+            <p class="show-rank">#1 in TV Shows Today</p>
+          </div>
+
+          <p class="show-description">
+            Determined to protect a young patient who escaped a mysterious cult,
+            a psychiatrist takes the girl in, putting her own family — and life
+            — in danger.
+          </p>
+
+          <div class="show-buttons">
+            <button class="show-button play-button">
+              <img
+                src="./assets/images/play.png"
+                alt="Play"
+                class="show-button-icon"
+              />
+              <p>Play</p>
+            </button>
+
+            <button class="show-button info-button">
+              <img
+                src="./assets/images/info.png"
+                alt="Info"
+                class="show-button-icon"
+              />
+              <p>More Info</p>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-vignette"></div>
+    </div>
+
+    <div class="show-lists">
+      <div class="show-list">
+        <h3 class="show-list-heading">Popular On Netflix</h3>
+
+        <div class="list-shows-div">
+          <div class="list-shows" id="list-shows-popular">
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-01.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-02.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-03.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-04.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-05.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-06.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="show-list">
+        <h3 class="show-list-heading">Trending Movies</h3>
+
+        <div class="list-shows-div">
+          <div class="list-shows" id="list-shows-trending-movie">
+            <a href="/show.html?show_id=05" class="show">
+              <img
+                src="/assets/images/show-banners/show-05.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </a>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-08.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-09.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-10.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-11.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-12.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="show-list">
+        <h3 class="show-list-heading">Trending Series</h3>
+
+        <div class="list-shows-div">
+          <div class="list-shows" id="list-shows-trending-tv">
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-13.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-14.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-15.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-16.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-17.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-18.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="show-list">
+        <h3 class="show-list-heading">Recommended</h3>
+
+        <div class="list-shows-div">
+          <div class="list-shows" id="list-shows-recommended">
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-25.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-20.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-21.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-22.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-23.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+            <div class="show">
+              <img
+                src="/assets/images/show-banners/show-24.png"
+                alt="Show Banner"
+                class="show-banner"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
